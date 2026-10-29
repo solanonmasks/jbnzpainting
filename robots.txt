@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# When the site is live, add the sitemap line with your real address, for example:
+# Sitemap: https://www.jnbzpainting.ca/sitemap.xml

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found | Jnbz Painting</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0E2236">
+  <link rel="icon" href="/jnbz/logo.jpg" type="image/jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&amp;family=Nunito+Sans:ital,wght@0,400;0,600;0,700;1,600&amp;display=swap" rel="stylesheet">
+  <!-- Root-relative paths (/...) so this page also works for missing pages in sub-folders -->
+  <link rel="stylesheet" href="/styles.css">
+  <style>
+    /* Styles only used on this page */
+    .notfound { min-height: 100vh; background: var(--navy); color: var(--white); display: flex; flex-direction: column; }
+    .notfound-body {
+      flex: 1; max-width: var(--max); width: 100%; margin: 0 auto; padding: var(--section-pad) var(--gutter);
+      display: flex; flex-direction: column; justify-content: center; align-items: flex-start; gap: 26px;
+    }
+    .notfound p { margin: 0; max-width: 31em; font-size: clamp(18px,1.4vw,21px); color: var(--text-on-navy); }
+  </style>
+</head>
+<body>
+  <div class="notfound">
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="/" class="logo" aria-label="Jnbz Painting home">
+          <span class="logo-jnbz">Jnbz</span>
+          <span class="logo-painting">Painting</span>
+        </a>
+        <a href="tel:17785524926" class="header-call">778-552-4926</a>
+      </div>
+    </header>
+    <main class="notfound-body">
+      <p class="hero-eyebrow">Error 404</p>
+      <h1 class="hero-title">This page wasn’t <span class="hero-highlight"><span class="hero-highlight-bar" aria-hidden="true"></span><span class="hero-highlight-text">found.</span></span></h1>
+      <p>The page you’re looking for may have moved. Head back to the home page, or call us for your free written quote.</p>
+      <div class="hero-buttons">
+        <a href="/" class="btn btn-green">Back to home</a>
+        <a href="tel:17785524926" class="btn btn-outline">Call 778-552-4926</a>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
